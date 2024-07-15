@@ -27,18 +27,14 @@ Skymarket - это backend-часть для сайта объявлений. В
 ## Установка и запуск
 
 1. Клонируйте репозиторий: **git clone https://github.com/ravcode9/skymarket_diplom**
-2. Перейдите в директорию проекта: **cd skymarket-backend**
+2. Перейдите в директорию проекта: **cd skymarket_diplom\skymarket**
 3. Создайте и активируйте виртуальное окружение: **python -m venv venv**
 **source venv/bin/activate**  (Для Linux/MacOS)
-**env\Scripts\activate**  (Для Windows)
+**venv\Scripts\activate**  (Для Windows)
 4. Установите зависимости: **pip install -r requirements.txt**
-5. Примените миграции: **python manage.py migrate**
-6. Запустите сервер: **python manage.py runserver**
-
-## Инструкции по настройке переменных окружения
-
-1. Создайте файл `.env` в корневой директории проекта.
-2. Добавьте переменные окружения из .env.sample со своими значениями
+5. Создайте файл `.env` в корневой директории проекта. Добавьте переменные окружения из .env.sample со своими значениями
+6. Примените миграции: **python manage.py migrate**
+7. Запустите сервер: **python manage.py runserver**
 
 ## Эндпоинты
 ### Объявления
