@@ -95,7 +95,7 @@ Skymarket - это backend-часть для сайта объявлений. В
 ### Прочее
 - **[name='api-root']** - Корневой эндпоинт API
 - **<drf_format_suffix:format>** - Суффиксы формата для API (name='api-root')
-- 
+
 #### Swagger и Redoc
 - **swagger/** - Swagger UI  документация (name='schema-swagger-ui')
 - **redoc/** - Redoc документация (name='schema-redoc')
